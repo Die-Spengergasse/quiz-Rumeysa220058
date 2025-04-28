@@ -6,6 +6,7 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class Quiz {
     private List<Question> questions; // Liste aller Fragen
     private int correctAnswers = 0; // Zähler für richtige Antworten

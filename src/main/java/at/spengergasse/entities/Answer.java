@@ -8,6 +8,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 
+
 @Entity
 @Table(name = "a_answers") // Tabelle in der Datenbank, die diese Entität repräsentiert
 public class Answer {

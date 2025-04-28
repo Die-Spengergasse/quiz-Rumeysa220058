@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 @Entity
 @Table(name = "q_questions") // Tabelle in der Datenbank, die diese Entität repräsentiert
 public class Question {
