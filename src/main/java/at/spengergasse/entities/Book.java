@@ -9,8 +9,6 @@ import java.time.LocalDate;
 @Entity
 public class Book {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // for MySQL
-//    @GeneratedValue // for SQLite
     private int id;
     private String author;
     private String title;
