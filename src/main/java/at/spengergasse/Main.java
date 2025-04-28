@@ -6,6 +6,7 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
+
 public class Main {
     public static void main(String[] args) {
         // EntityManager erstellen
